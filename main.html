@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Yu-Gi-Oh LPs Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Yu-Gi-Oh LP Tracker</h1>
+    <main>
+        <div id="players">
+            <section class="player">
+                <h2>Player 1</h2>
+                <div>
+                    <h3>LPS</h3>
+                    <p class="LPS" id="player1LPS">8000</p>
+                    <div>
+                        <input id="addPlayer1" type="number" min="0" step="50">
+                        <button class="addButton">+</button>
+                    </div>
+                    <div>
+                        <input id="subPlayer1" type="number" min="0" step="50">
+                        <button class="subButton">-</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="player">
+                <h2>Player 2</h2>
+                <div>
+                    <h3>LPS</h3>
+                    <p class="LPS" id="player2LPS">8000</p>
+                    <div>
+                        <input id="addPlayer2" type="number" min="0" step="50">
+                        <button class="addButton">+</button>
+                    </div>
+                    <div>
+                        <input id="subPlayer2" type="number" min="0" step="50">
+                        <button class="subButton">-</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+body {
+    background-color: #2b2d42;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#players {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player {
+    width: 45%;
+    height: 600px;
+    text-align: center;
+    background-color: #4f5163;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.LPS {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+input {
+    background-color: #2b2d42;
+    border: 2px solid #2b2d42;
+    border-radius: 2px;
+    margin-top: 1em;
+    width: 15rem;
+    height: 2rem;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5em;
+    font-size: 1em;
+    font-weight: 700;
+    border: 0;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.addButton {
+    background-color: #52b69a;
+    border: 2px solid #52b69a;
+}
+
+.subButton {
+    background-color: #9d0208;
+    border: 2px solid #9d0208;
+}
